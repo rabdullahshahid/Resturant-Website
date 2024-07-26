@@ -19,8 +19,8 @@ import FrenchFriesImage from './assets/Fries.jpg';
 const burgers = [
     { name: 'Tender Burger', price: 1.00, image: TenderImage, description: 'Tender chicken with fresh lettuce, Melted Cheese, With the hint of your fav sauces! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
     { name: 'Crunch Burger', price: 1.00, image: CrunchImage, description: 'Crispy chicken with fresh lettuce, Melted Cheese, With the hint of your fav sauces! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
-    { name: 'Mighty Burger', price: 1.00, image: SaucyWrapImage, description: 'Double Crispy Chicken Zinger with fresh lettuce, Melted Cheese, With the hint of your fav sauces! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
-    { name: 'Saucy Wrap', price: 1.00, image: MightyImage, description: 'Saucy the Bossy! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
+    { name: 'Mighty Burger', price: 1.00, image: MightyImage , description: 'Double Crispy Chicken Zinger with fresh lettuce, Melted Cheese, With the hint of your fav sauces! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
+    { name: 'Saucy Wrap', price: 1.00, image: SaucyWrapImage, description: 'Saucy the Bossy! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
     { name: 'Spicy Wrap', price: 1.00, image: SpicyWrapImage, description: 'A fiery blend of spices and fresh ingredients for a spicy kick! PRICES ARE NOT CORRECTLY MENTIONED HERE' },
   ];
   
