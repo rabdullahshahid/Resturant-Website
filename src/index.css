@@ -1,0 +1,250 @@
+body {
+    background: linear-gradient(to right, #FFA500, #FF8C00);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar-custom {
+    background: linear-gradient(to right, #FFA500, #FF8C00);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: none;
+}
+  
+.nav-link-custom {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+  
+.nav-link-custom:hover,
+.nav-link-custom.active {
+    background: linear-gradient(to right, #FF8C00, #FFA500);
+    color: black;
+    border-color: #FF8C00;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+}
+  
+.card-custom {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+}
+  
+.text-white-bold {
+    color: white;
+    font-weight: bold;
+}
+  
+.navbar-link {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+  
+.navbar-link:hover,
+.navbar-link:active {
+    background: linear-gradient(to right, #4e453b, #FFA500);
+    color: black !important;
+    border-color: #FF8C00;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+}
+  
+.text-white-normal {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+  
+.border-none {
+    border: none !important;
+}
+  
+.side-card {
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.5;
+    filter: blur(5px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+  
+.side-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+  
+.main-card-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.main-card {
+    z-index: 1;
+    transition: transform 0.5s ease;
+}
+  
+.main-card.slide-right {
+    transform: translateX(-100%);
+}
+  
+.main-card.slide-left {
+    transform: translateX(100%);
+}
+  
+.card-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+@media (max-width: 768px) {
+    .card-carousel {
+        flex-direction: column;
+    }
+  
+    .side-card {
+        display: none;
+    }
+  
+    .main-card {
+        width: 100%;
+        max-width: 90%;
+    }
+  
+    .navbar-nav {
+        flex-direction: column;
+    }
+  
+    .navbar-link {
+        margin: 10px 0;
+    }
+  
+    .addons-section .addon-card,
+    .sauces-section .addon-card {
+        max-width: 100%;
+    }
+}
+  
+/* Add these styles to your existing CSS */
+.addons-section .addon-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 200px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.addons-section .addon-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+  
+.addons-section .addon-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+  
+.addons-section .addon-card .card-text {
+    font-size: 1rem;
+    color: #fff;
+}
+  
+.addons-section .addon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+  
+.addons-section .addon-card:hover ~ .addon-card {
+    filter: blur(3px);
+    opacity: 0.5;
+}
+
+.sauces-section .addon-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.sauces-section .addon-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+  
+.sauces-section .addon-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+  
+.sauces-section .addon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+  
+.sauces-section .addon-card:hover ~ .addon-card {
+    filter: blur(3px);
+    opacity: 0.5;
+}
+
+.ab-about{/* From https://css.glass */
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.ab-text{
+    color: #fff;
+}
+
+.ab-des{
+    text-align: left;
+}
+
+.ab-h1{
+    text-align: center;
+}
