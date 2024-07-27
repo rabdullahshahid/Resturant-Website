@@ -287,7 +287,7 @@ const App = () => {
             <a href="https://github.com/rabdullahshahid" className="text-white-normal me-3"><Github size={20} />My Github</a>
             <a href="https://www.linkedin.com/in/muhammad-abdullah-a59298204/" className="text-white-normal me-3"><Linkedin size={20} /> Muhammad Abdullah </a>
             <a href="https://www.instagram.com/r.abdullahshahid/" className="text-white-normal me-3"><Instagram size={20} /> @r.abdullahshahid</a>
-            <a href=" https://wa.me/+923354473777" className="text-white-normal">Contact: +92 3354477377</a>
+            
           </div>
         </div>
       </footer>
