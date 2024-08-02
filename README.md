@@ -1,6 +1,6 @@
-## Burger Palace
+## Restaurant Menu
 
-Welcome to the Burger Palace project! This project is a web application built using React to showcase the menu items of a burger restaurant. The project includes sections for burgers, add-ons, and sauces, with a glassmorphism design for the item cards.
+Welcome to the Restaurant Menu display website project! This project is a web application built using React to showcase the menu items of a burger restaurant. The project includes sections for burgers, add-ons, and sauces, with a glassmorphism design for the item cards.
 
 ### Project Structure
 
